@@ -14,14 +14,15 @@ layui.define(['jquery'], function(exports) {
 					html += '</a></td></tr></tbody></table>';
 				});
 				html += '</tbody></table>';
-				$('.mo-unit-table').before(html);
+				//$('.mo-unit-table').before(html);
 			},
+			/*
 			'info': [{
 				'name': '热播剧',
 				'link': 'https://www.reboju.co',
 				'pics': 'https://s1.ax1x.com/2020/09/03/wP9fMQ.jpg',
 				'tips': '热播剧'
-			}]
+			}]*/
 		},
 		'browse': {
 			'MSIE\\s[0-9]': 'IE系列',
